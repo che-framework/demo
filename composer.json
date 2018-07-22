@@ -1,0 +1,31 @@
+{
+    "name": "che/demo",
+    "description": "a demo project test required a custom composer library",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "che",
+            "email": "reg@che.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "composer",
+            "url": "http://packagist.che.com"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    ],
+    "require": {
+        "che/demo-lib": "dev-master",
+        "php": ">=5.4.0",
+        "monolog/monolog": "1.0.*"
+    }
+}
